@@ -1,0 +1,1 @@
+[{"title":"Globos","description":"Globos de muchos colores","price":400,"image":"imagen","code":"abc125","stock":"15","id":3},{"title":"Manzana","description":"Una manzana verde deliciosa","price":100,"image":"imagen","code":"abc123","stock":"5","id":1}]
