@@ -1,6 +1,6 @@
 import { promises as fs } from "fs"
 
-class ProductManager {
+export default class ProductManager {
     constructor() {
         this.patch = "./productos.txt";
         this.products = [];
@@ -61,11 +61,18 @@ class ProductManager {
     };
 }
 
-const productos = new ProductManager();
+//const productos = new ProductManager();
 
 // productos.addProduct("Manzana", "Una manzana verde deliciosa", 100, "imagen", "abc123", "5")
-// productos.addProduct("Cafe", "Cafe Colombiano", 1000, "imagen", "abc124", "10")
-// productos.addProduct("Globos", "Globos de muchos colores", 200, "imagen", "abc125", "15")
+// productos.addProduct("Cafe", "Cafe Colombiano", 1000, "imagen2", "abc124", "10")
+// productos.addProduct("Pera", "Una pera que no espera", 30, "imagen3", "abc125", "15")
+// productos.addProduct("Uva", "Para hacer un rico vino", 10, "imagen4", "abc126", "20")
+// productos.addProduct("Melon", "Melon Melon, Melon Melon", 300, "imagen5", "abc127", "25")
+// productos.addProduct("Anana", "Anana o piña?", 100, "imagen6", "abc128", "35")
+// productos.addProduct("Sandia", "Para el veranito que se nos fue", 400, "imagen7", "abc129", "45")
+// productos.addProduct("Kiwi", "Nunca lo usas, no lo compres", 150, "imagen8", "abc130", "55")
+// productos.addProduct("Limon", "Limoncito para el chinchu", 50, "imagen9", "abc131", "65")
+// productos.addProduct("Te", "Un tecito bien rico", 300, "imagen10", "abc132", "100")
 
 //productos.getProducts()
 
@@ -73,12 +80,12 @@ const productos = new ProductManager();
 
 //productos.deleteProductsById(2)
 
-productos.updateProducts({
-    title: 'Globos',
-    description: 'Globos de muchos colores',
-    price: 400,
-    image: 'imagen',
-    code: 'abc125',
-    stock: '15',
-    id: 3
-})
+// productos.updateProducts({
+//     title: 'Globos',
+//     description: 'Globos de muchos colores',
+//     price: 400,
+//     image: 'imagen',
+//     code: 'abc125',
+//     stock: '15',
+//     id: 3
+// })
